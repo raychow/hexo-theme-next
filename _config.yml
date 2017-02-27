@@ -359,6 +359,7 @@ duoshuo_info:
 isso_comment:
   enable: true
   js_src: /comments/js/embed.min.js
+  js_count_src: /comments/js/count.min.js
   rest_api: /comments
   #lang:
   #reply_to_self:
@@ -370,7 +371,7 @@ isso_comment:
   #avatar:
   #avatar_bg:
   #avatar_fg:
-  #vote:
+  vote: false
   #vote_levels:
 
 
