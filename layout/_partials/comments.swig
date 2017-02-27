@@ -28,6 +28,8 @@
       <div id="uyan_frame"></div>
     {% elseif theme.livere_uid %}
       <div id="lv-container" data-id="city" data-uid="{{ theme.livere_uid }}"></div>
+    {% elseif theme.isso_comment.enable %}
+      <section id="isso-thread" class="isso-thread"></section>
     {% endif %}
   </div>
 {% endif %}

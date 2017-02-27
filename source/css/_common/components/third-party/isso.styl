@@ -1,0 +1,151 @@
+.theme-next .isso-thread {
+  p {
+    margin-bottom: 10px;
+  }
+  .textarea {
+    min-height: 60px;
+    outline: 0;
+  }
+  .placeholder {
+    color: #aaa;
+  }
+  .isso-comment {
+    margin: 15px 0;
+  }
+  .isso-comment:not(:first-of-type),
+  .isso-follow-up .isso-comment {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+  }
+  .isso-comment-header {
+    font-size: 0.85em;
+    .spacer {
+      margin: 0 6px;
+    }
+    .spacer
+    .permalink,
+    .note {
+      color: gray;
+      &:hover {
+        color: #222;
+      }
+    }
+    .author {
+      font-weight: bold;
+    }
+    .note {
+      float: right;
+    }
+  }
+  .isso-comment-footer {
+    font-size: 0.8em;
+    a:hover {
+      color: #222;
+    }
+    a+a {
+      margin-left: 8px;
+    }
+    .votes {
+      color: gray;
+    }
+    .upvote,
+    .downvote {
+      svg {
+        vertical-align: text-top;
+      }
+    }
+  }
+  .isso-no-votes .votes {
+    display: none;
+  }
+  .isso-comment-header,
+  .isso-comment-footer {
+    a {
+      border-bottom: none;
+    }
+  }
+  .textarea-wrapper {
+    .textarea {
+      margin-bottom: 10px;
+      padding: .4em .8em;
+      border-radius: 3px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      &:focus {
+        border-color: #666;
+        outline: none;
+      }
+    }
+  }
+  .input-wrapper {
+    display: inline-block;
+    input {
+      padding: 0.3em 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      &:focus {
+        border-color: #666;
+        outline: none;
+      }
+    }
+    &:not(:first-of-type) {
+      margin-left: 10px;
+    }
+  }
+  .post-action {
+    float: right;
+    & input {
+      padding: calc(0.3em);
+      border-radius: 2px;
+      border: 1px solid #eee;
+      background-color: #fbfbfb;
+      cursor: pointer;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      width: 90px;
+      &:hover, &:active {
+        background-color: #eee;
+      }
+    }
+  }
+  .avatar {
+    float: left;
+    margin: 6px 15px 0 0;
+    svg {
+      height: 48px;
+      width: 48px;
+      border: 1px solid #eee;
+      border-radius: 3px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+  }
+  .isso-follow-up {
+    padding-left: 62px;
+  }
+  .note {
+    /* clear style */
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  @media (max-width: 767px) {
+    .input-wrapper {
+      display: block;
+      &:not(:first-of-type) {
+        margin-left: 0;
+      }
+      input {
+        width: 100%;
+      }
+    }
+    .post-action {
+      float: none;
+    }
+  }
+}
+

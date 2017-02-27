@@ -166,6 +166,16 @@
                   <span class="post-comments-count join-count" itemprop="commentCount"></span>
                 </a>
               </span>
+            {% elseif theme.isso_comment.enable %}
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="{{ url_for(post.path) }}#isso-thread" itemprop="discussionUrl">
+                  <span class="post-comments-count isso-comment-count" itemprop="commentCount"></span>
+                </a>
+              </span>
             {% endif %}
           {% endif %}
 
