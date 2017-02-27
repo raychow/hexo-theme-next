@@ -38,12 +38,12 @@ seo: false
 menu:
   home: /
   categories: /categories
-  about: /about
-  archives: /archives
   tags: /tags
+  archives: /archives
   favorite: /favorite
   booklist: /booklist
   playlist: /playlist
+  about: /about
   sitemap: /sitemap.xml
   #commonweal: /404.html
 
