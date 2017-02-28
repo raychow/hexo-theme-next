@@ -363,15 +363,15 @@ isso_comment:
   rest_api: /comments
   #lang:
   #reply_to_self:
-  require_author: true
-  require_email: true
+  require_author: :"true"
+  require_email: "true"
   #max_comments_top:
   #max_comments_nested:
   #reveal_on_click:
   #avatar:
   #avatar_bg:
   #avatar_fg:
-  vote: false
+  vote: "false"
   #vote_levels:
 
 
