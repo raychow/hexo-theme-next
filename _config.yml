@@ -84,24 +84,21 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: /
-  categories: /categories
-  tags: /tags
-  archives: /archives
-  favorite: /favorite
-  booklist: /booklist
-  playlist: /playlist
-  about: /about
-  sitemap: /sitemap.xml
+  home: / || home
+  categories: /categories || th
+  tags: /tags || tags
+  archives: /archives || archive
+  favorite: /favorite || heart
+  booklist: /booklist || bookmark
+  playlist: /playlist || music
+  about: /about || user
+  sitemap: /sitemap.xml || sitemap
   #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
-  favorite: heart
-  booklist: bookmark
-  playlist: music
 
 
 # ---------------------------------------------------------------
@@ -152,7 +149,6 @@ links:
   萝莉天下: http://lolis.info/
   快乐啦: http://www.happyla.net/
   猴子: http://www.houzi.in/
-  #Title: http://example.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -296,10 +292,10 @@ highlight_theme: night
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
-  host: //fonts.lug.ustc.edu.cn
+  host: https://fonts.lug.ustc.edu.cn
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -347,7 +343,7 @@ font:
 mathjax:
   enable: false
   per_page: false
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: https://cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
 han: false
