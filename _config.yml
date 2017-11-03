@@ -19,7 +19,7 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  medium: https://beamnote-img.oss-cn-shanghai.aliyuncs.com/favicon.ico
+  medium: //img.beamnote.com/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "beamnote, 光线誌, blog, 博客"
@@ -721,7 +721,7 @@ canvas_ribbon:
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: https://beamnote.oss-cn-shanghai.aliyuncs.com/lib
+  _internal: lib
 
   # Internal version: 2.1.3
   jquery:
@@ -801,9 +801,9 @@ vendors:
 
 
 # Assets
-css: https://beamnote.oss-cn-shanghai.aliyuncs.com/css
-js: https://beamnote.oss-cn-shanghai.aliyuncs.com/js
-images: https://beamnote.oss-cn-shanghai.aliyuncs.com/images
+css: css
+js: js
+images: images
 
 # isso config
 isso_comment:
