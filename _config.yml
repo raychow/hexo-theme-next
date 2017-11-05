@@ -85,7 +85,7 @@ menu:
   archives: /archives || archive
   favorite: /favorite || heart
   booklist: /booklist || bookmark
-  playlist: /playlist || music
+  #playlist: /playlist || music
   about: /about || user
   sitemap: /sitemap.xml || sitemap
   #commonweal: /404.html
